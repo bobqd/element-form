@@ -1,0 +1,30 @@
+{
+  "name": "@tiger/form",
+  "version": "1.0.4-bate.35",
+  "description": "",
+  "main": "src/Form/index.js",
+  "style": "lib/tiger.css",
+  "types": "types/index.d.ts",
+  "dependencies": {
+    "wangeditor": "^3.1.1"
+  },
+  "files": [
+    "lib",
+    "src",
+    "types"
+  ],
+  "devDependencies": {
+    "@tiger/cli": "^1.0.14-alpha.0",
+    "element-ui": "^2.13.2",
+    "iview": "^3.5.4",
+    "vue": "^2.6.11"
+  },
+  "scripts": {
+    "dev": "tiger doc dev",
+    "build": "tiger doc build",
+    "build:site": "tiger doc build -s --path=/tiger_form/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
